@@ -5,7 +5,7 @@
 <br/>
 
 This project about a Smart Car with wireless controlling using microcontroller ESP32 in AP mode (Access Point).
-Here i used ESP32 to control 2 motors with 4 wheels with H-bridge motor controler (TB6612FNG)
+Here i used ESP32 to control 2 motors with 4 wheels with H-bridge motor controller (TB6612FNG)
 
 <img src="https://user-images.githubusercontent.com/5675794/130445014-ffd060d6-66bc-4091-ab76-dcd984f68b8a.png" alt="alt text" width="300" height="300"> <img src="https://user-images.githubusercontent.com/5675794/130444999-84827549-35cc-4e8e-a57a-6a3a4e895658.png" alt="alt text" width="300" height="300"> <img src="https://user-images.githubusercontent.com/5675794/130445030-8f4e3c18-57fb-46a1-a897-eefda05399f3.png" alt="alt text" width="300" height="300">
 
