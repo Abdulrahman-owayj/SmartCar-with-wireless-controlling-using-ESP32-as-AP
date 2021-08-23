@@ -233,12 +233,12 @@ String SendHTML(uint8_t forward,uint8_t backward){                     //HTML co
                 <p><a href="/forward"><button class="button">forward</button></a></p>            // forward button
             </div>
             <div class="card two">
-                <p><a href="/left"><button class="button">Left</button></a></p>                  // forward button 
-                <p><a href="/pause1"><button class="button">pause</button></a></p>               // forward button
-                <p><a href="/right"><button class="button">right</button></a></p>                // forward button
+                <p><a href="/left"><button class="button">Left</button></a></p>                  // left button 
+                <p><a href="/pause1"><button class="button">pause</button></a></p>               // pause button
+                <p><a href="/right"><button class="button">right</button></a></p>                // right button
             </div>
             <div class="card three">
-                <p><a href="/backward"><button class="button">backward</button></a></p>
+                <p><a href="/backward"><button class="button">backward</button></a></p>          // backward button
             </div>
         </div> 
  
