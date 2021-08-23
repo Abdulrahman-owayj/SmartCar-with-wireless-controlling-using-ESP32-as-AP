@@ -32,6 +32,12 @@ Before working in this project, i implemented alot of small projects which helpe
 ## ESP32
 ![ESP32](https://user-images.githubusercontent.com/5675794/130447355-1972fd3d-514d-4743-ae26-0bb2fc784c8a.jpg) <br/> <br/>
 
+### ESP32 Access Point Mode (AP) <br/>
+The ESP32 that creates its own WiFi network and acts as a hub (Just like WiFi router) for one or more stations is called Access Point (AP). Unlike WiFi router, it does not have interface to a wired network. So, such mode of operation is called Soft Access Point (soft-AP). Also the maximum number of stations that can connect to it is limited to five.
+<br/>
+
+<br/>
+
 ## Motor Driver (TB6612FNG)
 
 <img src="https://user-images.githubusercontent.com/5675794/130448700-76826a1a-bd1a-4916-82d6-4a4471a27508.jpeg" alt="alt text" width="600" height="400"> 
