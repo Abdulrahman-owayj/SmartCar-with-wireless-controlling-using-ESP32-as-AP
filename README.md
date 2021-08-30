@@ -5,10 +5,11 @@
 <br/>
 
 This project about a Smart Car with wireless controlling using microcontroller ESP32 in AP mode (Access Point).
-Here i used ESP32 to control 2 motors with 4 wheels with H-bridge motor controller (TB6612FNG)
+Here i used ESP32 to control 2 motors with 4 wheels with H-bridge motor controller (TB6612FNG) <br/>
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/5675794/130445014-ffd060d6-66bc-4091-ab76-dcd984f68b8a.png" alt="alt text" width="300" height="300"> <img src="https://user-images.githubusercontent.com/5675794/130444999-84827549-35cc-4e8e-a57a-6a3a4e895658.png" alt="alt text" width="300" height="300"> <img src="https://user-images.githubusercontent.com/5675794/130445030-8f4e3c18-57fb-46a1-a897-eefda05399f3.png" alt="alt text" width="300" height="300">
-
+</p>
 
 
 <br/>
@@ -30,7 +31,10 @@ Before working in this project, i implemented alot of small projects which helpe
 <br/>
 
 ## ESP32
-![ESP32](https://user-images.githubusercontent.com/5675794/130447355-1972fd3d-514d-4743-ae26-0bb2fc784c8a.jpg) <br/> <br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5675794/130447355-1972fd3d-514d-4743-ae26-0bb2fc784c8a.jpg" alt="alt text" > <br/> <br/>
+
+</p>
 
 ### ESP32 Access Point Mode (AP) <br/>
 The ESP32 that creates its own WiFi network and acts as a hub (Just like WiFi router) for one or more stations is called Access Point (AP). Unlike WiFi router, it does not have interface to a wired network. So, such mode of operation is called Soft Access Point (soft-AP). Also the maximum number of stations that can connect to it is limited to five.
@@ -39,13 +43,25 @@ The ESP32 that creates its own WiFi network and acts as a hub (Just like WiFi ro
 <br/>
 
 ## Motor Driver (TB6612FNG)
-
+<p align="center">
 <img src="https://user-images.githubusercontent.com/5675794/130448700-76826a1a-bd1a-4916-82d6-4a4471a27508.jpeg" alt="alt text" width="600" height="400"> 
-
+</p>
 
 # Smart Car with wireless control using ESP32 as access point (Web Server) <br/>
+<p align="center">
 <img src="https://user-images.githubusercontent.com/5675794/130461118-36ee4123-e561-4844-8394-6100970635a0.jpeg" alt="alt text" width="500" height="400">
 <img src="https://user-images.githubusercontent.com/5675794/130461128-4dc63c90-3b1c-4dea-8c14-9c9504438776.jpeg" alt="alt text" width="500" height="400">
+</p> <br/>
+
+## Control Panel
+<br/>
+
+<br/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/5675794/131364040-5a3091df-6160-49f0-8f71-2ee23db3a22a.jpeg" alt="alt text" width="400" height="550" > &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/5675794/131364062-469f2156-6a59-4407-8013-fcb1cb80d189.jpeg" alt="alt text" width="400" height="550" >
+</p>
+
+<br/>
 
 ### Real-Time Simulation
 
