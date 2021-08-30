@@ -215,6 +215,7 @@ void handle_NotFound(){
 }
 
 String SendHTML(uint8_t forward,uint8_t backward){                     //HTML code for the webpage in the ESP32
+
   char webpage[] PROGMEM = R"=====(
 
   <!DOCTYPE html>
@@ -226,19 +227,69 @@ String SendHTML(uint8_t forward,uint8_t backward){                     //HTML co
     <title>Second Task</title>
 
 </head>
+<style>
+
+.card1{text-align: center;}
+
+.card3{ text-align: center; }
+
+h2 {
+   text-align: center;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+}
+  .button {
+    font-family:  sans-serif;
+    width: 90px;
+    height: 70px;
+  transition-duration: 0.4s;
+    background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  font-size: 17px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.card2 {
+margin: 1em auto;
+flex: 0 0 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            margin: 20px;
+}
+
+button:first-of-type {margin-right: 2em;}
+
+</style>
 <body>
-   
-        <div class="container">                                                                 //parent class
-            <div class="card one">                                                              //class for the row
-                <p><a href="/forward"><button class="button">forward</button></a></p>            // forward button
+
+    <h2>control panel</h2>
+
+        <div class="container">
+            <div class="card1">
+                <p><a href="/forward"><button class="button">forward</button></a></p>
             </div>
-            <div class="card two">
-                <p><a href="/left"><button class="button">Left</button></a></p>                  // left button 
-                <p><a href="/pause1"><button class="button">pause</button></a></p>               // pause button
-                <p><a href="/right"><button class="button">right</button></a></p>                // right button
+            <div class="card2">
+                <p> <a href="/left"><button id=left class="button">Left</button></a></p>
+                <p><a href="/pause1"><button id=pause class="button">pause</button></a></p>
+                <p><a href="/right"><button id=right class="button">right</button></a></p>
             </div>
-            <div class="card three">
-                <p><a href="/backward"><button class="button">backward</button></a></p>          // backward button
+            <div class="card3">
+                <p><a href="/backward"><button class="button">backward</button></a></p>
             </div>
         </div> 
  
